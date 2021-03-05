@@ -4,7 +4,7 @@
 
 Author: Davion Garcia
 
-- [Pull Req 1]()
+- [Pull Req 1](https://github.com/Vektur/api-server/pull/1)
 - [Heroku App](https://dg-api-server.herokuapp.com/)
 
 ## Setup
