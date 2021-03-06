@@ -16,7 +16,7 @@ Author: Davion Garcia
 
 ## Running the app
 
-- npm start
+- node index
 - Endpoint: /clothes
   - create
   - read
