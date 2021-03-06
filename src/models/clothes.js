@@ -4,7 +4,7 @@ const model = require('./schema.js');
 
 class Crud {
     constructor() {
-        this.model = model.clothesModel;
+        this.model = model.foodModel;
     }
 
     create(record) {
@@ -21,7 +21,7 @@ class Crud {
     }
 
     update(_id, record) {
-        return this.model.findByIdAndUpdate(_id, record, { new: true }) // New true => get back updated record
+        return this.model.findByIdAndUpdate(_id, record, { new: true })
     }
 
     delete(_id) {
