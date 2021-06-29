@@ -17,18 +17,11 @@ Author: Davion Garcia
 ## Running the app
 
 - node index
-- Endpoint: /clothes
+- Endpoint: /shop
   - create
   - read
   - update
   - delete
-
-- Endpoint: /food
-  - create
-  - read
-  - update
-  - delete
-
 
 ## Tests
 
