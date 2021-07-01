@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config()
 let server = require('./src/server.js');
 let PORT = process.env.PORT || 3300;
 let URI = process.env.MONGO_URI;
