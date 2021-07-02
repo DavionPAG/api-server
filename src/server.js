@@ -1,7 +1,6 @@
 'use strict';
 
 const express = require('express');
-express.urlencoded().extened(true)
 const cors = require('cors')
 const app = express();
 
