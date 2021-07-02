@@ -9,7 +9,7 @@ const badRequest = require('./error-handlers/404.js');
 const errors = require('./error-handlers/500.js');
 
 app.use(express.json());
-app.use(cors)
+app.use(cors())
 
 app.get('/', (req,res) => res.status(200).json('StoreFront DB'))
 app.use(shopRoutes);
